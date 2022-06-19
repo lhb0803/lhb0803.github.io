@@ -1,5 +1,51 @@
+html, body {
+    height: 100%;
+}
+
 .hidden {
     display: none;
+}
+
+.top {
+    text-align: right;
+    top: 0;
+    height: 8%;
+}
+
+.main {
+    height: 92%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box {
+    float: left;
+    vertical-align: middle;
+    height: 100%;
+    align-items: center;
+}
+
+#text-box {
+    width: 50%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#img-box {
+    width: 50%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -27,6 +73,9 @@ ul {
     font-style: italic;
 }
 
-#weather {
-    text-align: right;
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
 }
