@@ -1,3 +1,32 @@
 .hidden {
     display: none;
 }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#quote {
+    text-align: center;
+}
+
+#author {
+    font-style: italic;
+}
+
+#weather {
+    text-align: right;
+}
